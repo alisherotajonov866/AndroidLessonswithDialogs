@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TimePickerDialog</string>
+    <string name="hello">Vaqtni tanlash uchun bosing</string>
+</resources>
