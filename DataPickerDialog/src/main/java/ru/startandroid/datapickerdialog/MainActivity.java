@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.Calendar;
 
-//
+// DatePickerDialog was done implement to working with Date Dialog
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     private TextView tvDate ;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         tvDate = findViewById(R.id.tvDate);
 
-        //
+        // Button bosgan vaqtimizda 'showDatePickerDialog' deb nomlagan method imiz ishga tushadi.
         (findViewById(R.id.btnDate)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
     }
 
-    //
+    // Bu method da 'DatePickerDialog' class idan kerakli malumotlar olinadi va calanedar ko'rsatiladi
+    // shu yerda calendar ko'rsatish uchun kodlar tugaydi
     private void showDatePickerDialog() {
 
         DatePickerDialog datePickerDialog = new DatePickerDialog(this,this,
@@ -42,10 +43,13 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         datePickerDialog.show();
     }
 
-    //
+    // Bu method calendar da belgilangan sanani ko'rsatish textview da ko'rsatish uchun
+
+    // WARNING! android studio da oy kunlari 0 dan index langan (0-11)
     @Override
     public void onDateSet(DatePicker datePicker, int year, int month, int day) {
-        String date = day + "/" + month + "/" + year ;
+        int selectedMonth = month + 1 ;
+        String date = day + "." + selectedMonth + "." + year ;
         tvDate.setText(date);
 
     }
