@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AlertDialog_RateMe" />
             <option value="$PROJECT_DIR$/DataPickerDialog" />
             <option value="$PROJECT_DIR$/TimePickerDialog" />
           </set>

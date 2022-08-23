@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AlertDialog_RateMe</string>
+    <string name="rate_dialog_title">Bu ilovani baholash</string>
+    <string name="rate_dialog_message">Agar bu ilova sizga maqul bolsa, qarshi bolmasangiz hozir uni baholang. U bir daqiqadan kop vaqt olmaydi. Qollab quvvatlaganingiz uchun Raxmat!</string>
+    <string name="rate_dialog_ok">Hozir baholash</string>
+    <string name="rate_dialog_cancel">Keyinroq eslating</string>
+    <string name="rate_dialog_no">Yoq,rahmat!</string>
+</resources>
