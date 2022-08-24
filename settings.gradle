@@ -16,3 +16,4 @@ rootProject.name = "Android Lessons  with Dialogs"
 include ':DataPickerDialog'
 include ':TimePickerDialog'
 include ':AlertDialog_RateMe'
+include ':AlertDialog_DoNotDIsmiss'
