@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Android Lessons  with Dialogs"
-include ':DataPickerDialog'
-include ':TimePickerDialog'
-include ':AlertDialog_RateMe'
-include ':AlertDialog_DoNotDIsmiss'
+include ':Dialog_DataPicker'
+include ':Dialog_TimePicker'
+include ':Dialog_RateMe'
+include ':AlertDialog_Confirmation'

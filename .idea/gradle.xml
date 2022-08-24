@@ -10,10 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/AlertDialog_DoNotDIsmiss" />
-            <option value="$PROJECT_DIR$/AlertDialog_RateMe" />
-            <option value="$PROJECT_DIR$/DataPickerDialog" />
-            <option value="$PROJECT_DIR$/TimePickerDialog" />
+            <option value="$PROJECT_DIR$/AlertDialog_Confirmation" />
+            <option value="$PROJECT_DIR$/Dialog_DataPicker" />
+            <option value="$PROJECT_DIR$/Dialog_RateMe" />
+            <option value="$PROJECT_DIR$/Dialog_TimePicker" />
           </set>
         </option>
       </GradleProjectSettings>
