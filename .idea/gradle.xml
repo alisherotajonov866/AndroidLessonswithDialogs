@@ -11,7 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AlertDialog_Confirmation" />
-            <option value="$PROJECT_DIR$/Dialog_DataPicker" />
+            <option value="$PROJECT_DIR$/Dialog_DatePicker" />
+            <option value="$PROJECT_DIR$/Dialog_Information" />
             <option value="$PROJECT_DIR$/Dialog_RateMe" />
             <option value="$PROJECT_DIR$/Dialog_TimePicker" />
           </set>
