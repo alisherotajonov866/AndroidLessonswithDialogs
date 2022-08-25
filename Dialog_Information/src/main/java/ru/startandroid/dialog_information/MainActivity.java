@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    // WARNING! This module doesn't run! There are some mistakes in manifest file
+    // WARNING! This module doesn't run! There are some mistakes in gradle
 
     Button btnInform;
 
