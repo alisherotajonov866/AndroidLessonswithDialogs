@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--shape - tarjimasi shakl, yani biz background ni shaklini yasab olamiz-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"> <!--What is it?-->
+    <solid android:color="@color/white"/>
+    <corners android:radius="20dp"/>
+</shape>
